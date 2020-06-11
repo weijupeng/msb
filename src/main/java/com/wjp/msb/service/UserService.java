@@ -1,5 +1,6 @@
 package com.wjp.msb.service;
 
+import com.wjp.msb.common.Result;
 import com.wjp.msb.entity.User;
 
 /**
@@ -13,4 +14,9 @@ public interface UserService {
      * @return String
      */
     String addUser(User user);
+
+    Result getUser5();
+
+    Result getCode();
+
 }
